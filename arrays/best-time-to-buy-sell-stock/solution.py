@@ -1,6 +1,4 @@
-"""Best Time to Buy and Sell Stock — single pass, track running minimum."""
 from typing import List
-
 
 def max_profit(prices: List[int]) -> int:
     if not prices:
