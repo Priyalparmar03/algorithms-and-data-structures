@@ -49,5 +49,6 @@ pip install pytest
 pytest                    # run every test in the repo
 pytest arrays/two-sum/    # run tests for one problem
 ```
+Author 
 
-Every solution in this repo has been executed and its tests verified to pass.
+Priyal Parmar 
