@@ -1,0 +1,21 @@
+"""Search a 2D Matrix — binary search over a virtual flattened index."""
+from typing import List
+
+
+def search_matrix(matrix: List[List[int]], target: int) -> bool:
+    if not matrix or not matrix[0]:
+        return False
+    rows, cols = len(matrix), len(matrix[0])
+    low, high = 0, rows * cols - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        row, col = divmod(mid, cols)
+        val = matrix[row][col]
+        if val == target:
+            return True
+        elif val < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return False

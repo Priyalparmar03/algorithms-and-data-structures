@@ -1,0 +1,12 @@
+"""Two Sum — hash map one-pass solution."""
+from typing import List
+
+
+def two_sum(nums: List[int], target: int) -> List[int]:
+    seen = {}  # value -> index
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    raise ValueError("No two sum solution exists for the given input")

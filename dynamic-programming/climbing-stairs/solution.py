@@ -1,0 +1,10 @@
+"""Climbing Stairs — bottom-up DP, space-optimized to O(1)."""
+
+
+def climb_stairs(n: int) -> int:
+    if n <= 2:
+        return n
+    prev2, prev1 = 1, 2
+    for _ in range(3, n + 1):
+        prev2, prev1 = prev1, prev1 + prev2
+    return prev1

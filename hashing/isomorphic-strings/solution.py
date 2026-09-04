@@ -1,0 +1,16 @@
+"""Isomorphic Strings — bidirectional character mapping."""
+
+
+def is_isomorphic(s: str, t: str) -> bool:
+    if len(s) != len(t):
+        return False
+    s_to_t = {}
+    t_to_s = {}
+    for cs, ct in zip(s, t):
+        if cs in s_to_t and s_to_t[cs] != ct:
+            return False
+        if ct in t_to_s and t_to_s[ct] != cs:
+            return False
+        s_to_t[cs] = ct
+        t_to_s[ct] = cs
+    return True
