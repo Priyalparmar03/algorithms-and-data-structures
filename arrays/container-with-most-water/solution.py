@@ -7,7 +7,6 @@ def max_area(height: List[int]) -> int:
     best = 0
     while left < right:
         h = min(height[left], height[right])
-        best = max(best, h * (right - left))
         if height[left] < height[right]:
             left += 1
         else:
