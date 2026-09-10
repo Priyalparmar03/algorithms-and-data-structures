@@ -1,6 +1,5 @@
 from solution import max_area
 
-
 def test_standard_case():
     assert max_area([1, 8, 6, 2, 5, 4, 8, 3, 7]) == 49
 
