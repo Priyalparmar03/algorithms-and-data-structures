@@ -1,6 +1,4 @@
-"""Container With Most Water — two pointers from both ends."""
 from typing import List
-
 
 def max_area(height: List[int]) -> int:
     left, right = 0, len(height) - 1
