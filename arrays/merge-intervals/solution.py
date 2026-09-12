@@ -1,6 +1,4 @@
-"""Merge Intervals — sort by start, then merge adjacent overlaps."""
 from typing import List
-
 
 def merge(intervals: List[List[int]]) -> List[List[int]]:
     if not intervals:
