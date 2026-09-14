@@ -4,7 +4,7 @@
 **Topic:** Arrays
 **Difficulty:** Medium
 
-**C++ Solution **: https://leetcode.com/problems/product-of-array-except-self/submissions/2141890784/
+C++ Solution : https://leetcode.com/problems/product-of-array-except-self/submissions/2141890784/
 
 
 ## Problem
