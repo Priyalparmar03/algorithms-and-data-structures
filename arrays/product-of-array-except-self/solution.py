@@ -1,6 +1,4 @@
-"""Product of Array Except Self — prefix/suffix products, no division."""
 from typing import List
-
 
 def product_except_self(nums: List[int]) -> List[int]:
     n = len(nums)
