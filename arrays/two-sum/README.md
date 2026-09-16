@@ -4,6 +4,8 @@
 **Topic:** Arrays / Hashing
 **Difficulty:** Easy
 
+C++ Solution : https://leetcode.com/problems/two-sum/submissions/2143869887/
+
 ## Problem
 Given an array of integers `nums` and an integer `target`, return the indices of the two numbers that add up to `target`. Assume exactly one solution exists, and you may not use the same element twice.
 
