@@ -4,6 +4,7 @@
 **Topic:** Arrays
 **Difficulty:** Easy
 
+C++ Solution : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2157396472/
 ## Problem
 Given an array `prices` where prices[i] is the stock price on day i, find the maximum profit from a single buy followed by a single sell (buy must happen before sell).
 
