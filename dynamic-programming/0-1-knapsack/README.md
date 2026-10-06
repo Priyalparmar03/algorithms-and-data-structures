@@ -15,7 +15,7 @@ dp[i][w] represents the best value achievable using the first i items with capac
 - Space: O(n * capacity) for the 2D table (optimizable to O(capacity) with a 1D array, iterating weight in reverse).
 
 ## Implementation
-See `solution.py`.
+See solution.py
 
 ## Tests
-See `test_solution.py`.
+See test_solution.py
