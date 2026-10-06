@@ -1,8 +1,9 @@
 # 0 1 Knapsack
 
-**Source:** Classic / GeeksforGeeks
+**Source:** Classic / GeeksforGeeks 
 **Topic:** Dynamic Programming
 **Difficulty:** Medium
+https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/
 
 ## Problem
 Given item weights, values, and a knapsack capacity, maximize total value without exceeding capacity, using each item at most once (0/1 — take it or don't).
