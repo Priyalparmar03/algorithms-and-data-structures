@@ -4,6 +4,8 @@
 **Topic:** Dynamic Programming
 **Difficulty:** Medium
 
+C++ Solution : https://leetcode.com/problems/longest-increasing-subsequence/submissions/2187961465/
+
 ## Problem
 Given an array of integers, find the length of the longest strictly increasing subsequence.
 
