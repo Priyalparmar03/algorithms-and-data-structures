@@ -4,6 +4,8 @@
 **Topic:** Graphs
 **Difficulty:** Medium
 
+C++ Solution : https://leetcode.com/problems/course-schedule/submissions/2188846419/
+
 ## Problem
 Given `numCourses` and a list of prerequisite pairs [a, b] (must take b before a), determine if it's possible to finish all courses (i.e., the prerequisite graph has no cycle).
 
