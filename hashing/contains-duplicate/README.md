@@ -4,6 +4,8 @@
 **Topic:** Hashing
 **Difficulty:** Easy
 
+C++ solution : https://leetcode.com/problems/contains-duplicate/submissions/2189585605/
+
 ## Problem
 Given an array of integers, determine if any value appears at least twice.
 
