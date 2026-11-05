@@ -4,6 +4,8 @@
 **Topic:** Hashing
 **Difficulty:** Medium
 
+C++ Solution : https://leetcode.com/problems/top-k-frequent-elements/submissions/2190260399/
+
 ## Problem
 Given an array of integers, return the k most frequent elements.
 
