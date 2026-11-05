@@ -4,6 +4,8 @@
 **Topic:** Hashing
 **Difficulty:** Medium
 
+C++ Solution : https://leetcode.com/problems/longest-consecutive-sequence/submissions/2190255507/
+
 ## Problem
 Given an unsorted array of integers, find the length of the longest run of consecutive integers, in O(n) time.
 
