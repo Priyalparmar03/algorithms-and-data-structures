@@ -4,6 +4,8 @@
 **Topic:** Hashing
 **Difficulty:** Easy
 
+C++ Solution : https://leetcode.com/problems/isomorphic-strings/submissions/2190249403/
+
 ## Problem
 Given two strings s and t, determine if they are isomorphic (characters in s can be consistently replaced to get t, with a one-to-one mapping in both directions).
 
